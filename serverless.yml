@@ -1,4 +1,4 @@
-org: geraldocolchado
+org: maxent
 service: api-salary-prediction
 
 provider:
@@ -7,7 +7,7 @@ provider:
   memorySize: 1024
   timeout: 20
   iam:
-    role: arn:aws:iam::339712924490:role/LabRole
+    role: arn:aws:iam::211125574698:role/LabRole
 
 functions:
   listar:
